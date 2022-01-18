@@ -1,0 +1,27 @@
+
+{{!-- <section>
+  <h2>{{post.title}}</h2>
+  <textarea name="content" id="content" cols="30" rows="10">{{post.content}}</textarea>
+</section> --}}
+
+<div class="single-post">
+  {{> post-info post }}
+</div>
+
+{{#if loggedIn}}
+<form class="comment-form">
+  <div class="textarea">
+    <textarea name="comment-body"></textarea>
+  </div>
+
+  <div class="button">
+    <button type="submit">add comment</button>
+  </div>
+</form>
+{{/if}}
+
+{{> comments post.comments}}
+
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
