@@ -8,6 +8,8 @@
 
 - [Video Demostration](https://drive.google.com/file/d/1uG8C3EKfE2tEgr6h7IcBQPXp9Ws-xRtO/view "Tech Blog")
 
+- [Deployed App](https://floating-journey-56402.herokuapp.com/dashboard "Tech Blog")
+
 ## Built With
 
 - MySql
